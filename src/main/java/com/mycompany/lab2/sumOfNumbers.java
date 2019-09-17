@@ -16,12 +16,16 @@ public class sumOfNumbers {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Please enter the number you are going to sum");
         double numToSum = keyboard.nextDouble();
-        double numToCount = 1;
+        double numToCount = 0;
         
-          /*  
-        do while (numToCount <= numToSum)
+         /**
+        while (numToCount <= numToSum) {
+            numToSum = numToCount + ;
             
-        
-         */
+            
+        }
+            
+        */
+       
     }
 }
