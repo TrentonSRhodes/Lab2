@@ -20,6 +20,15 @@ public class barChart {
         double storeThree = keyboard.nextDouble();
         double storeFour = keyboard.nextDouble();
         double storeFive = keyboard.nextDouble();
+        double numToCount = 0;
+        String y = "";
+        
+        while (storeOne > 100) {
+            storeOne = storeOne - 100;
+            numToCount++;
+            
+            System.out.println("");
+        }
         
         
     }
