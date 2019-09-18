@@ -17,15 +17,14 @@ public class sumOfNumbers {
         System.out.println("Please enter the number you are going to sum");
         double numToSum = keyboard.nextDouble();
         double numToCount = 0;
+        double result = 0;
         
-         /**
         while (numToCount <= numToSum) {
-            numToSum = numToCount + ;
-            
-            
+            result = numToCount + result;
+            numToCount ++;
         }
-            
-        */
+          System.out.println(result);  
+        
        
     }
 }
